@@ -1,0 +1,4 @@
+/node_modules
+.env
+amazonorderhistory.csv
+package-lock.json
