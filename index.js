@@ -55,7 +55,7 @@ const ORDERS_LINK = process.env.ORDERS_LINK;
       );
       allDetails.push({
         date,
-        price: parseFloat(price),
+        price: parseFloat(price.replace(/,/g, "")),
         name,
         month: date.split(" ")[1],
       });
